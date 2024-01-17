@@ -6,7 +6,7 @@ app.listen(process.env.PORT || PORT, () => {
     console.log(`The Server is running on ${PORT}! You better go catch it!`)
 })
 
-
+app.use(cors())
 
 const rappers = {
     '21 savage': {
