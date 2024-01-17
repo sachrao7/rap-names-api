@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const PORT = 8000
+const cors = require('cors')
 app.listen(process.env.PORT || PORT, () => {
     console.log(`The Server is running on ${PORT}! You better go catch it!`)
 })
